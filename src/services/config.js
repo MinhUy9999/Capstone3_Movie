@@ -1,5 +1,5 @@
 import axios from 'axios'
-const http = axios.create({
+export const http = axios.create({
  baseURL: 'https://movienew.cybersoft.edu.vn/api',
  headers: {
     // là nơi truyền token cyber sorf

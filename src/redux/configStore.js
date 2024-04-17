@@ -4,9 +4,6 @@ export const store = configureStore({
   reducer: {
     hoTen: () => {
         return 'minhuy';
-         
-            
-        
-    }
+      }
   },
 })
