@@ -1,6 +1,6 @@
-import React from 'react'
+import BookTicket from "../../pages/BookTicket/BookTicket"
 
-import BookTicket from '../../components/BookTicket/BookTicket'
+
 
 const HomeTemplate = () => {
   return (

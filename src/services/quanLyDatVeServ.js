@@ -4,5 +4,6 @@ LayDanhSachPhongVe: ve => {
   return http.get(
     `/QuanLyDatVe/LayDanhSachPhongVe?MaLichChieu=${ve}`
   );
+ 
 }
 }
