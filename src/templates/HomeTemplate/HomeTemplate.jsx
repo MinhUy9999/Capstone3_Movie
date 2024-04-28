@@ -1,11 +1,16 @@
-import BookTicket from "../../pages/BookTicket/BookTicket"
+import { Outlet } from "react-router-dom"
+import Header from "../../layouts/Header/Header"
+import Footer from "../../layouts/Footer/Footer"
+
 
 
 
 const HomeTemplate = () => {
   return (
     <div>
-      <BookTicket/>
+      <Header/>
+      <Outlet/>
+      <Footer/>
     </div>
   )
 }
